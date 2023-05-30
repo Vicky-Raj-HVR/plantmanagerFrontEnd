@@ -3,7 +3,7 @@ import axios from "axios";
 const instance=axios.create({
 
     // baseURL: 'http://localhost:8080/api',
-    baseURL: 'http://mindjobcard.ap-south-1.elasticbeanstalk.com/api',
+    baseURL: 'http://ec2-184-72-129-3.compute-1.amazonaws.com:8081/api',
     
 
     headers: {
